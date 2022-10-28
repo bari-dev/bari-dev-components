@@ -1,3 +1,27 @@
-.pippo{
-  @apply underline underline-offset-1;
+.Nav{
+  @apply flex items-center justify-between flex-wrap  p-6;
+}
+
+.NavDivImg{
+  @apply flex items-center flex-shrink-0 text-white mr-6
+}
+
+.NavTitle{
+  @apply font-bold text-xl tracking-tight
+}
+
+.NavImg{
+  @apply fill-current mr-2 
+}
+
+.NavDivMenu{
+  @apply hidden w-full md:block md:w-auto
+}
+
+.NavDivMenuInner{
+  @apply text-lg lg:flex-grow font-semibold
+}
+
+.MenuVoice{
+  @apply block mt-4 lg:inline-block lg:mt-0 hover:text-white mr-10
 }
